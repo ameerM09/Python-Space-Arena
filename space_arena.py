@@ -46,6 +46,7 @@ class Parameters():
             dx = random.randint(-2, 2) / 10
             dy = random.randint(-2, 2) / 10
             sprites.append(Enemy(x, y, 'square', 'red'))
+            sprites.append(Enemy(x, y, 'square', 'red'))
             sprites[-1].dx = dx
             sprites[-1].dy = dy
 
@@ -608,7 +609,7 @@ while True:
             level_end = False
 
     if level_end:
-        run.level = run.level + 2
+        run.level = run.level + 1
         run.level_one()
 
     win.update()
