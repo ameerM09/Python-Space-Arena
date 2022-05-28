@@ -10,6 +10,7 @@ SCREEN_HEIGHT = 620
 
 # Screen setup
 win = turtle.Screen()
+win.title('Space Arena')
 win.setup(SCREEN_WIDTH, SCREEN_HEIGHT)
 win.bgcolor('black')
 win.tracer(0)
