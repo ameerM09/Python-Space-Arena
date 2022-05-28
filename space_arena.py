@@ -324,7 +324,7 @@ class Enemy(Sprite):
                 elif self.y < player.y:
                     self.dy = self.dy - 0.01 
                 else:
-                    self.dy = selfdy + 0.01 
+                    self.dy = self.dy + 0.01 
 
             else:
                 self.dx = 0
