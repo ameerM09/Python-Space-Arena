@@ -46,7 +46,6 @@ class Parameters():
             dx = random.randint(-2, 2) / 10
             dy = random.randint(-2, 2) / 10
             sprites.append(Enemy(x, y, 'square', 'red'))
-            sprites.append(Enemy(x, y, 'square', 'red'))
             sprites[-1].dx = dx
             sprites[-1].dy = dy
 
