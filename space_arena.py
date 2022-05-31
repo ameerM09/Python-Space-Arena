@@ -27,7 +27,7 @@ pen.speed(0)
 pen.penup()
 pen.hideturtle()
 
-# Class to create border around the screen which is larger than the window dimensions
+# Class to create parameters 
 class Parameters():
     def __init__(self, width, height):
         self.width = width
