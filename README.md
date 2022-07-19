@@ -1,10 +1,3 @@
 # Python-Space-Arena
 
-This game involves a player that attempts to shoot the different types of enemies.
-
-The shooter enemy attacks the player.
-
-The overview enemy runs away from the player.
-
-The standby enemy does not move.
-
+A scaled version of a popular arcade game known as "Space Arena." Some enemies attack the player, while others run away from it, and some do not move at all. The goal of the player is simple: to take down the enemies and move through the increasinly more difficult levels.
